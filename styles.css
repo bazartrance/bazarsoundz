@@ -1,4 +1,6 @@
 
+
+
 body {
     font-size: 1em; /* currently ems cause chrome bug misinterpreting rems on body element */
     line-height: 1.6;
@@ -63,8 +65,8 @@ padding-right: 20px;
     border-radius: 3px;
   
     line-height: 2em;
-    padding-left: 2.5em;
-    padding-right: 2.5em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
     box-shadow: 0 0 0 0 transparent;
     transition: all 0.2s ease-in; 
 
@@ -121,15 +123,9 @@ padding-right: 20px;
     }
  
 
-html {
 
-    padding: 20px;
-    background: url(images/passenger-cover-notextblur.jpg) no-repeat center center fixed;
-    -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
+
+
 .grid-container {
     display: grid;
     background-color: #fff;
@@ -164,7 +160,7 @@ html {
         display: grid;
         background-color: #fff;
         grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
+        grid-template-rows: 1fr;
         gap: 0px 0px;
         grid-template-areas:
           ". . .";
@@ -240,4 +236,19 @@ html {
           ". . ."
           ". . .";
         grid-area: youtubemusic;
+      }
+
+      @media (min-width: 400px) {
+        html {
+
+          padding-top: 20px;
+          padding-bottom: 20px;
+          background: url(images/passenger-cover-notextblur.jpg) no-repeat center center fixed;
+          -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        
+        
+      }
       }
