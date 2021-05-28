@@ -134,7 +134,7 @@ padding-right: 20px;
     max-width: 600px;
     margin: auto;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr max-content 75px 75px 75px 75px 75px 75px 75px;
+    grid-template-rows: 1fr max-content 75px 75px 75px 75px 75px 75px;
     gap: 0px 0px;
     grid-template-areas:
       "hero"
