@@ -241,7 +241,6 @@ padding-right: 20px;
 
       @media (min-width: 400px) {
         html {
-
           padding-top: 20px;
           padding-bottom: 20px;
           background: url(images/passenger-cover-notextblur.jpg) no-repeat center center fixed;
@@ -249,7 +248,14 @@ padding-right: 20px;
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
-        
-        
+      }
+      .onemoretime-bkd {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        background: url(images/one-more-time-bkd.jpg) no-repeat center center fixed;
+        -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
       }
       }
