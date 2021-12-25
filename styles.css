@@ -146,6 +146,24 @@ padding-right: 20px;
       "youtubemusic"
       "youtube";
   }
+
+
+.onemore-grid-container {
+  display: grid;
+  background-color: #fff;
+  max-width: 600px;
+  margin: auto;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr max-content 75px 75px 75px 75px;
+  gap: 0px 0px;
+  grid-template-areas:
+    "hero"
+    "subtext"
+    "spotify"
+    "applemusic"
+    "itunes"
+    "youtubemusic"
+}
   
   .hero { grid-area: hero; 
         min-width: 320px;
