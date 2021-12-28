@@ -134,7 +134,7 @@ padding-right: 20px;
     max-width: 600px;
     margin: auto;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr max-content 75px 75px 75px 75px 75px 75px;
+    grid-template-rows: 1fr max-content 75px 75px 75px 75px 75px 75px 75px;
     gap: 0px 0px;
     grid-template-areas:
       "hero"
@@ -144,7 +144,8 @@ padding-right: 20px;
       "amazon"
       "itunes"
       "youtubemusic"
-      "youtube";
+      "youtube"
+      "soundcloud";
   }
 
 
@@ -154,7 +155,7 @@ padding-right: 20px;
   max-width: 600px;
   margin: auto;
   grid-template-columns: 1fr;
-  grid-template-rows: 1fr max-content 75px 75px 75px 75px;
+  grid-template-rows: 1fr max-content 75px 75px 75px 75px 75px;
   gap: 0px 0px;
   grid-template-areas:
     "hero"
@@ -163,6 +164,7 @@ padding-right: 20px;
     "applemusic"
     "itunes"
     "youtubemusic"
+    "soundcloud";
 }
   
   .hero { grid-area: hero; 
@@ -255,6 +257,16 @@ padding-right: 20px;
           ". . ."
           ". . .";
         grid-area: youtubemusic;
+      }
+      .soundcloud {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 0px 0px;
+        grid-template-areas:
+          ". . ."
+          ". . .";
+        grid-area: soundcloud;
       }
 
       @media (min-width: 400px) {
